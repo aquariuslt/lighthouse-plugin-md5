@@ -1,0 +1,3259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plugin: Discovery # should load plugin with module identifier 1`] = `
+Config {
+  "audits": Array [
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "is-on-https",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "redirects-http",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "service-worker",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "works-offline",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "viewport",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "without-javascript",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/first-contentful-paint",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/first-meaningful-paint",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "load-fast-enough-for-pwa",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/speed-index",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "screenshot-thumbnails",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "final-screenshot",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/estimated-input-latency",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/total-blocking-time",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/max-potential-fid",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "errors-in-console",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "time-to-first-byte",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/first-cpu-idle",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/interactive",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "user-timings",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "critical-request-chains",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "redirects",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "installable-manifest",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "apple-touch-icon",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "splash-screen",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "themed-omnibox",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "content-width",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "image-aspect-ratio",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "deprecations",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "mainthread-work-breakdown",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "bootup-time",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "uses-rel-preload",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "uses-rel-preconnect",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "font-display",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "diagnostics",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "network-requests",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "network-rtt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "network-server-latency",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "main-thread-tasks",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "offline-start-url",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "performance-budget",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "resource-summary",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "third-party-summary",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "manual/pwa-cross-browser",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "manual/pwa-page-transitions",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "manual/pwa-each-page-has-url",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/accesskeys",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-allowed-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-required-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-required-children",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-required-parent",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-roles",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-valid-attr-value",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-valid-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/audio-caption",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/button-name",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/bypass",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/color-contrast",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/definition-list",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/dlitem",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/document-title",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/duplicate-id",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/frame-title",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/html-has-lang",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/html-lang-valid",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/image-alt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/input-image-alt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/label",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/layout-table",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/link-name",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/list",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/listitem",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/meta-refresh",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/meta-viewport",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/object-alt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/tabindex",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/td-headers-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/th-has-data-cells",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/valid-lang",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/video-caption",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/video-description",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/custom-controls-labels",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/custom-controls-roles",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/focus-traps",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/focusable-controls",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/heading-levels",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/interactive-element-affordance",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/logical-tab-order",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/managed-focus",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/offscreen-content-hidden",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/use-landmarks",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/visual-order-follows-dom",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-long-cache-ttl",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/total-byte-weight",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/offscreen-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/render-blocking-resources",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/unminified-css",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/unminified-javascript",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/unused-css-rules",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-webp-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-optimized-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-text-compression",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-responsive-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/efficient-animated-content",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/appcache-manifest",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/doctype",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/dom-size",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/external-anchors-use-rel-noopener",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/geolocation-on-start",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/no-document-write",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/no-vulnerable-libraries",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/js-libraries",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/notification-on-start",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/password-inputs-can-be-pasted-into",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/uses-http2",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/uses-passive-event-listeners",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/meta-description",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/http-status-code",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/font-size",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/link-text",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/is-crawlable",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/robots-txt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/tap-targets",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/hreflang",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/plugins",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/canonical",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/manual/structured-data",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "lib/audit.js",
+    },
+  ],
+  "categories": Object {
+    "accessibility": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "a11y-navigation",
+          "id": "accesskeys",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-allowed-attr",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-required-attr",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-required-children",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-required-parent",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-roles",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-valid-attr-value",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-valid-attr",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-audio-video",
+          "id": "audio-caption",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "button-name",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-navigation",
+          "id": "bypass",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-color-contrast",
+          "id": "color-contrast",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "definition-list",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "dlitem",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "document-title",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-best-practices",
+          "id": "duplicate-id",
+          "weight": 1,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "frame-title",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-language",
+          "id": "html-has-lang",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-language",
+          "id": "html-lang-valid",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "image-alt",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "input-image-alt",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "label",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "layout-table",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "link-name",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "list",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "listitem",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-best-practices",
+          "id": "meta-refresh",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-best-practices",
+          "id": "meta-viewport",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "object-alt",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-navigation",
+          "id": "tabindex",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "td-headers-attr",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "th-has-data-cells",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-language",
+          "id": "valid-lang",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-audio-video",
+          "id": "video-caption",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-audio-video",
+          "id": "video-description",
+          "weight": 10,
+        },
+        Object {
+          "id": "logical-tab-order",
+          "weight": 0,
+        },
+        Object {
+          "id": "focusable-controls",
+          "weight": 0,
+        },
+        Object {
+          "id": "interactive-element-affordance",
+          "weight": 0,
+        },
+        Object {
+          "id": "managed-focus",
+          "weight": 0,
+        },
+        Object {
+          "id": "focus-traps",
+          "weight": 0,
+        },
+        Object {
+          "id": "custom-controls-labels",
+          "weight": 0,
+        },
+        Object {
+          "id": "custom-controls-roles",
+          "weight": 0,
+        },
+        Object {
+          "id": "visual-order-follows-dom",
+          "weight": 0,
+        },
+        Object {
+          "id": "offscreen-content-hidden",
+          "weight": 0,
+        },
+        Object {
+          "id": "heading-levels",
+          "weight": 0,
+        },
+        Object {
+          "id": "use-landmarks",
+          "weight": 0,
+        },
+      ],
+      "description": "lighthouse-core/config/default-config.js | a11yCategoryDescription # 0",
+      "manualDescription": "lighthouse-core/config/default-config.js | a11yCategoryManualDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yCategoryTitle # 0",
+    },
+    "best-practices": Object {
+      "auditRefs": Array [
+        Object {
+          "id": "appcache-manifest",
+          "weight": 1,
+        },
+        Object {
+          "id": "is-on-https",
+          "weight": 1,
+        },
+        Object {
+          "id": "uses-http2",
+          "weight": 1,
+        },
+        Object {
+          "id": "uses-passive-event-listeners",
+          "weight": 1,
+        },
+        Object {
+          "id": "no-document-write",
+          "weight": 1,
+        },
+        Object {
+          "id": "external-anchors-use-rel-noopener",
+          "weight": 1,
+        },
+        Object {
+          "id": "geolocation-on-start",
+          "weight": 1,
+        },
+        Object {
+          "id": "doctype",
+          "weight": 1,
+        },
+        Object {
+          "id": "no-vulnerable-libraries",
+          "weight": 1,
+        },
+        Object {
+          "id": "js-libraries",
+          "weight": 0,
+        },
+        Object {
+          "id": "notification-on-start",
+          "weight": 1,
+        },
+        Object {
+          "id": "deprecations",
+          "weight": 1,
+        },
+        Object {
+          "id": "password-inputs-can-be-pasted-into",
+          "weight": 1,
+        },
+        Object {
+          "id": "errors-in-console",
+          "weight": 1,
+        },
+        Object {
+          "id": "image-aspect-ratio",
+          "weight": 1,
+        },
+      ],
+      "title": "lighthouse-core/config/default-config.js | bestPracticesCategoryTitle # 0",
+    },
+    "lighthouse-plugin-md5": Object {
+      "auditRefs": Array [
+        Object {
+          "group": undefined,
+          "id": "content-md5",
+          "weight": 0,
+        },
+      ],
+      "description": undefined,
+      "manualDescription": undefined,
+      "title": "MD5 Validation",
+    },
+    "performance": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "metrics",
+          "id": "first-contentful-paint",
+          "weight": 3,
+        },
+        Object {
+          "group": "metrics",
+          "id": "first-meaningful-paint",
+          "weight": 1,
+        },
+        Object {
+          "group": "metrics",
+          "id": "speed-index",
+          "weight": 4,
+        },
+        Object {
+          "group": "metrics",
+          "id": "interactive",
+          "weight": 5,
+        },
+        Object {
+          "group": "metrics",
+          "id": "first-cpu-idle",
+          "weight": 2,
+        },
+        Object {
+          "group": "metrics",
+          "id": "max-potential-fid",
+          "weight": 0,
+        },
+        Object {
+          "id": "estimated-input-latency",
+          "weight": 0,
+        },
+        Object {
+          "id": "total-blocking-time",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "render-blocking-resources",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-responsive-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "offscreen-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "unminified-css",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "unminified-javascript",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "unused-css-rules",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-optimized-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-webp-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-text-compression",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-rel-preconnect",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "time-to-first-byte",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "redirects",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-rel-preload",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "efficient-animated-content",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "total-byte-weight",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "uses-long-cache-ttl",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "dom-size",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "critical-request-chains",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "user-timings",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "bootup-time",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "mainthread-work-breakdown",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "font-display",
+          "weight": 0,
+        },
+        Object {
+          "group": "budgets",
+          "id": "performance-budget",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "resource-summary",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "third-party-summary",
+          "weight": 0,
+        },
+        Object {
+          "id": "network-requests",
+          "weight": 0,
+        },
+        Object {
+          "id": "network-rtt",
+          "weight": 0,
+        },
+        Object {
+          "id": "network-server-latency",
+          "weight": 0,
+        },
+        Object {
+          "id": "main-thread-tasks",
+          "weight": 0,
+        },
+        Object {
+          "id": "diagnostics",
+          "weight": 0,
+        },
+        Object {
+          "id": "metrics",
+          "weight": 0,
+        },
+        Object {
+          "id": "screenshot-thumbnails",
+          "weight": 0,
+        },
+        Object {
+          "id": "final-screenshot",
+          "weight": 0,
+        },
+      ],
+      "title": "lighthouse-core/config/default-config.js | performanceCategoryTitle # 0",
+    },
+    "pwa": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "pwa-fast-reliable",
+          "id": "load-fast-enough-for-pwa",
+          "weight": 7,
+        },
+        Object {
+          "group": "pwa-fast-reliable",
+          "id": "works-offline",
+          "weight": 5,
+        },
+        Object {
+          "group": "pwa-fast-reliable",
+          "id": "offline-start-url",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-installable",
+          "id": "is-on-https",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-installable",
+          "id": "service-worker",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-installable",
+          "id": "installable-manifest",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "redirects-http",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "splash-screen",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "themed-omnibox",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "content-width",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "viewport",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "without-javascript",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "apple-touch-icon",
+          "weight": 1,
+        },
+        Object {
+          "id": "pwa-cross-browser",
+          "weight": 0,
+        },
+        Object {
+          "id": "pwa-page-transitions",
+          "weight": 0,
+        },
+        Object {
+          "id": "pwa-each-page-has-url",
+          "weight": 0,
+        },
+      ],
+      "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+      "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+      "title": "Progressive Web App",
+    },
+    "seo": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "seo-mobile",
+          "id": "viewport",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "document-title",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "meta-description",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-crawl",
+          "id": "http-status-code",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "link-text",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-crawl",
+          "id": "is-crawlable",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-crawl",
+          "id": "robots-txt",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "image-alt",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "hreflang",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "canonical",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-mobile",
+          "id": "font-size",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "plugins",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-mobile",
+          "id": "tap-targets",
+          "weight": 1,
+        },
+        Object {
+          "id": "structured-data",
+          "weight": 0,
+        },
+      ],
+      "description": "lighthouse-core/config/default-config.js | seoCategoryDescription # 0",
+      "manualDescription": "lighthouse-core/config/default-config.js | seoCategoryManualDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoCategoryTitle # 0",
+    },
+  },
+  "groups": Object {
+    "a11y-aria": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yAriaGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yAriaGroupTitle # 0",
+    },
+    "a11y-audio-video": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yAudioVideoGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yAudioVideoGroupTitle # 0",
+    },
+    "a11y-best-practices": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yBestPracticesGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yBestPracticesGroupTitle # 0",
+    },
+    "a11y-color-contrast": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yColorContrastGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yColorContrastGroupTitle # 0",
+    },
+    "a11y-language": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yLanguageGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yLanguageGroupTitle # 0",
+    },
+    "a11y-names-labels": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupTitle # 0",
+    },
+    "a11y-navigation": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yNavigationGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yNavigationGroupTitle # 0",
+    },
+    "a11y-tables-lists": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupTitle # 0",
+    },
+    "budgets": Object {
+      "description": "lighthouse-core/config/default-config.js | budgetsGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | budgetsGroupTitle # 0",
+    },
+    "diagnostics": Object {
+      "description": "lighthouse-core/config/default-config.js | diagnosticsGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | diagnosticsGroupTitle # 0",
+    },
+    "load-opportunities": Object {
+      "description": "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle # 0",
+    },
+    "metrics": Object {
+      "title": "lighthouse-core/config/default-config.js | metricGroupTitle # 0",
+    },
+    "pwa-fast-reliable": Object {
+      "title": "lighthouse-core/config/default-config.js | pwaFastReliableGroupTitle # 0",
+    },
+    "pwa-installable": Object {
+      "title": "lighthouse-core/config/default-config.js | pwaInstallableGroupTitle # 0",
+    },
+    "pwa-optimized": Object {
+      "title": "lighthouse-core/config/default-config.js | pwaOptimizedGroupTitle # 0",
+    },
+    "seo-content": Object {
+      "description": "lighthouse-core/config/default-config.js | seoContentGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoContentGroupTitle # 0",
+    },
+    "seo-crawl": Object {
+      "description": "lighthouse-core/config/default-config.js | seoCrawlingGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoCrawlingGroupTitle # 0",
+    },
+    "seo-mobile": Object {
+      "description": "lighthouse-core/config/default-config.js | seoMobileGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoMobileGroupTitle # 0",
+    },
+  },
+  "passes": Array [
+    Object {
+      "blankPage": "about:blank",
+      "blockedUrlPatterns": Array [],
+      "cpuQuietThresholdMs": 1000,
+      "gatherers": Array [
+        Object {
+          "implementation": [Function],
+          "instance": CSSUsage {},
+          "options": Object {},
+          "path": "css-usage",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ViewportDimensions {},
+          "options": Object {},
+          "path": "viewport-dimensions",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": RuntimeExceptions {
+            "_exceptions": Array [],
+            "_onRuntimeExceptionThrown": [Function],
+          },
+          "options": Object {},
+          "path": "runtime-exceptions",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ConsoleMessages {
+            "_logEntries": Array [],
+            "_onConsoleEntryAdded": [Function],
+          },
+          "options": Object {},
+          "path": "console-messages",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": AnchorElements {},
+          "options": Object {},
+          "path": "anchor-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ImageElements {},
+          "options": Object {},
+          "path": "image-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": LinkElements {},
+          "options": Object {},
+          "path": "link-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": MetaElements {},
+          "options": Object {},
+          "path": "meta-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ScriptElements {},
+          "options": Object {},
+          "path": "script-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": AppCacheManifest {},
+          "options": Object {},
+          "path": "dobetterweb/appcache",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": Doctype {},
+          "options": Object {},
+          "path": "dobetterweb/doctype",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": DOMStats {},
+          "options": Object {},
+          "path": "dobetterweb/domstats",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": OptimizedImages {
+            "_encodingStartAt": 0,
+          },
+          "options": Object {},
+          "path": "dobetterweb/optimized-images",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": PasswordInputsWithPreventedPaste {},
+          "options": Object {},
+          "path": "dobetterweb/password-inputs-with-prevented-paste",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ResponseCompression {},
+          "options": Object {},
+          "path": "dobetterweb/response-compression",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": TagsBlockingFirstPaint {},
+          "options": Object {},
+          "path": "dobetterweb/tags-blocking-first-paint",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": FontSize {},
+          "options": Object {},
+          "path": "seo/font-size",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": EmbeddedContent {},
+          "options": Object {},
+          "path": "seo/embedded-content",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": RobotsTxt {},
+          "options": Object {},
+          "path": "seo/robots-txt",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": TapTargets {},
+          "options": Object {},
+          "path": "seo/tap-targets",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": Accessibility {},
+          "options": Object {},
+          "path": "accessibility",
+        },
+      ],
+      "networkQuietThresholdMs": 1000,
+      "passName": "defaultPass",
+      "pauseAfterLoadMs": 1000,
+      "recordTrace": true,
+      "useThrottling": true,
+    },
+    Object {
+      "blankPage": "about:blank",
+      "blockedUrlPatterns": Array [],
+      "cpuQuietThresholdMs": 0,
+      "gatherers": Array [
+        Object {
+          "implementation": [Function],
+          "instance": ServiceWorker {},
+          "options": Object {},
+          "path": "service-worker",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": Offline {},
+          "options": Object {},
+          "path": "offline",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": StartUrl {},
+          "options": Object {},
+          "path": "start-url",
+        },
+      ],
+      "networkQuietThresholdMs": 0,
+      "passName": "offlinePass",
+      "pauseAfterLoadMs": 0,
+      "recordTrace": false,
+      "useThrottling": false,
+    },
+    Object {
+      "blankPage": "about:blank",
+      "blockedUrlPatterns": Array [
+        "*.css",
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.gif",
+        "*.svg",
+        "*.ttf",
+        "*.woff",
+        "*.woff2",
+      ],
+      "cpuQuietThresholdMs": 0,
+      "gatherers": Array [
+        Object {
+          "implementation": [Function],
+          "instance": HTTPRedirect {
+            "_preRedirectURL": "",
+          },
+          "options": Object {},
+          "path": "http-redirect",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": HTMLWithoutJavaScript {},
+          "options": Object {},
+          "path": "html-without-javascript",
+        },
+      ],
+      "networkQuietThresholdMs": 0,
+      "passName": "redirectPass",
+      "pauseAfterLoadMs": 0,
+      "recordTrace": false,
+      "useThrottling": false,
+    },
+  ],
+  "settings": Object {
+    "additionalTraceCategories": null,
+    "auditMode": false,
+    "blockedUrlPatterns": null,
+    "budgets": null,
+    "channel": "node",
+    "disableStorageReset": false,
+    "emulatedFormFactor": "mobile",
+    "extraHeaders": null,
+    "gatherMode": false,
+    "locale": "en-US",
+    "maxWaitForFcp": 15000,
+    "maxWaitForLoad": 45000,
+    "onlyAudits": null,
+    "onlyCategories": null,
+    "output": "json",
+    "precomputedLanternData": null,
+    "skipAudits": null,
+    "throttling": Object {
+      "cpuSlowdownMultiplier": 4,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "requestLatencyMs": 562.5,
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "uploadThroughputKbps": 675,
+    },
+    "throttlingMethod": "simulate",
+  },
+}
+`;
+
+exports[`Plugin: Discovery # should load plugin with source code 1`] = `
+Config {
+  "audits": Array [
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "is-on-https",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "redirects-http",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "service-worker",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "works-offline",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "viewport",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "without-javascript",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/first-contentful-paint",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/first-meaningful-paint",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "load-fast-enough-for-pwa",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/speed-index",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "screenshot-thumbnails",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "final-screenshot",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/estimated-input-latency",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/total-blocking-time",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/max-potential-fid",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "errors-in-console",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "time-to-first-byte",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/first-cpu-idle",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics/interactive",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "user-timings",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "critical-request-chains",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "redirects",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "installable-manifest",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "apple-touch-icon",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "splash-screen",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "themed-omnibox",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "content-width",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "image-aspect-ratio",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "deprecations",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "mainthread-work-breakdown",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "bootup-time",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "uses-rel-preload",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "uses-rel-preconnect",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "font-display",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "diagnostics",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "network-requests",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "network-rtt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "network-server-latency",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "main-thread-tasks",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "metrics",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "offline-start-url",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "performance-budget",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "resource-summary",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "third-party-summary",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "manual/pwa-cross-browser",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "manual/pwa-page-transitions",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "manual/pwa-each-page-has-url",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/accesskeys",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-allowed-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-required-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-required-children",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-required-parent",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-roles",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-valid-attr-value",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/aria-valid-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/audio-caption",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/button-name",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/bypass",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/color-contrast",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/definition-list",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/dlitem",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/document-title",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/duplicate-id",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/frame-title",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/html-has-lang",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/html-lang-valid",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/image-alt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/input-image-alt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/label",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/layout-table",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/link-name",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/list",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/listitem",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/meta-refresh",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/meta-viewport",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/object-alt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/tabindex",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/td-headers-attr",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/th-has-data-cells",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/valid-lang",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/video-caption",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/video-description",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/custom-controls-labels",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/custom-controls-roles",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/focus-traps",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/focusable-controls",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/heading-levels",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/interactive-element-affordance",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/logical-tab-order",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/managed-focus",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/offscreen-content-hidden",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/use-landmarks",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "accessibility/manual/visual-order-follows-dom",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-long-cache-ttl",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/total-byte-weight",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/offscreen-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/render-blocking-resources",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/unminified-css",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/unminified-javascript",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/unused-css-rules",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-webp-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-optimized-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-text-compression",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/uses-responsive-images",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "byte-efficiency/efficient-animated-content",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/appcache-manifest",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/doctype",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/dom-size",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/external-anchors-use-rel-noopener",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/geolocation-on-start",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/no-document-write",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/no-vulnerable-libraries",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/js-libraries",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/notification-on-start",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/password-inputs-can-be-pasted-into",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/uses-http2",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "dobetterweb/uses-passive-event-listeners",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/meta-description",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/http-status-code",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/font-size",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/link-text",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/is-crawlable",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/robots-txt",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/tap-targets",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/hreflang",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/plugins",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/canonical",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "seo/manual/structured-data",
+    },
+    Object {
+      "implementation": [Function],
+      "options": Object {},
+      "path": "lib/audit.js",
+    },
+  ],
+  "categories": Object {
+    "accessibility": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "a11y-navigation",
+          "id": "accesskeys",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-allowed-attr",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-required-attr",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-required-children",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-required-parent",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-roles",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-valid-attr-value",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-aria",
+          "id": "aria-valid-attr",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-audio-video",
+          "id": "audio-caption",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "button-name",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-navigation",
+          "id": "bypass",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-color-contrast",
+          "id": "color-contrast",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "definition-list",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "dlitem",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "document-title",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-best-practices",
+          "id": "duplicate-id",
+          "weight": 1,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "frame-title",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-language",
+          "id": "html-has-lang",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-language",
+          "id": "html-lang-valid",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "image-alt",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "input-image-alt",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "label",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "layout-table",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "link-name",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "list",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "listitem",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-best-practices",
+          "id": "meta-refresh",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-best-practices",
+          "id": "meta-viewport",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-names-labels",
+          "id": "object-alt",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-navigation",
+          "id": "tabindex",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "td-headers-attr",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-tables-lists",
+          "id": "th-has-data-cells",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-language",
+          "id": "valid-lang",
+          "weight": 3,
+        },
+        Object {
+          "group": "a11y-audio-video",
+          "id": "video-caption",
+          "weight": 10,
+        },
+        Object {
+          "group": "a11y-audio-video",
+          "id": "video-description",
+          "weight": 10,
+        },
+        Object {
+          "id": "logical-tab-order",
+          "weight": 0,
+        },
+        Object {
+          "id": "focusable-controls",
+          "weight": 0,
+        },
+        Object {
+          "id": "interactive-element-affordance",
+          "weight": 0,
+        },
+        Object {
+          "id": "managed-focus",
+          "weight": 0,
+        },
+        Object {
+          "id": "focus-traps",
+          "weight": 0,
+        },
+        Object {
+          "id": "custom-controls-labels",
+          "weight": 0,
+        },
+        Object {
+          "id": "custom-controls-roles",
+          "weight": 0,
+        },
+        Object {
+          "id": "visual-order-follows-dom",
+          "weight": 0,
+        },
+        Object {
+          "id": "offscreen-content-hidden",
+          "weight": 0,
+        },
+        Object {
+          "id": "heading-levels",
+          "weight": 0,
+        },
+        Object {
+          "id": "use-landmarks",
+          "weight": 0,
+        },
+      ],
+      "description": "lighthouse-core/config/default-config.js | a11yCategoryDescription # 0",
+      "manualDescription": "lighthouse-core/config/default-config.js | a11yCategoryManualDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yCategoryTitle # 0",
+    },
+    "best-practices": Object {
+      "auditRefs": Array [
+        Object {
+          "id": "appcache-manifest",
+          "weight": 1,
+        },
+        Object {
+          "id": "is-on-https",
+          "weight": 1,
+        },
+        Object {
+          "id": "uses-http2",
+          "weight": 1,
+        },
+        Object {
+          "id": "uses-passive-event-listeners",
+          "weight": 1,
+        },
+        Object {
+          "id": "no-document-write",
+          "weight": 1,
+        },
+        Object {
+          "id": "external-anchors-use-rel-noopener",
+          "weight": 1,
+        },
+        Object {
+          "id": "geolocation-on-start",
+          "weight": 1,
+        },
+        Object {
+          "id": "doctype",
+          "weight": 1,
+        },
+        Object {
+          "id": "no-vulnerable-libraries",
+          "weight": 1,
+        },
+        Object {
+          "id": "js-libraries",
+          "weight": 0,
+        },
+        Object {
+          "id": "notification-on-start",
+          "weight": 1,
+        },
+        Object {
+          "id": "deprecations",
+          "weight": 1,
+        },
+        Object {
+          "id": "password-inputs-can-be-pasted-into",
+          "weight": 1,
+        },
+        Object {
+          "id": "errors-in-console",
+          "weight": 1,
+        },
+        Object {
+          "id": "image-aspect-ratio",
+          "weight": 1,
+        },
+      ],
+      "title": "lighthouse-core/config/default-config.js | bestPracticesCategoryTitle # 0",
+    },
+    "lighthouse-plugin-md5": Object {
+      "auditRefs": Array [
+        Object {
+          "group": undefined,
+          "id": "content-md5",
+          "weight": 0,
+        },
+      ],
+      "description": undefined,
+      "manualDescription": undefined,
+      "title": "MD5 Validation",
+    },
+    "performance": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "metrics",
+          "id": "first-contentful-paint",
+          "weight": 3,
+        },
+        Object {
+          "group": "metrics",
+          "id": "first-meaningful-paint",
+          "weight": 1,
+        },
+        Object {
+          "group": "metrics",
+          "id": "speed-index",
+          "weight": 4,
+        },
+        Object {
+          "group": "metrics",
+          "id": "interactive",
+          "weight": 5,
+        },
+        Object {
+          "group": "metrics",
+          "id": "first-cpu-idle",
+          "weight": 2,
+        },
+        Object {
+          "group": "metrics",
+          "id": "max-potential-fid",
+          "weight": 0,
+        },
+        Object {
+          "id": "estimated-input-latency",
+          "weight": 0,
+        },
+        Object {
+          "id": "total-blocking-time",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "render-blocking-resources",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-responsive-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "offscreen-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "unminified-css",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "unminified-javascript",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "unused-css-rules",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-optimized-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-webp-images",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-text-compression",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-rel-preconnect",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "time-to-first-byte",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "redirects",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "uses-rel-preload",
+          "weight": 0,
+        },
+        Object {
+          "group": "load-opportunities",
+          "id": "efficient-animated-content",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "total-byte-weight",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "uses-long-cache-ttl",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "dom-size",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "critical-request-chains",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "user-timings",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "bootup-time",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "mainthread-work-breakdown",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "font-display",
+          "weight": 0,
+        },
+        Object {
+          "group": "budgets",
+          "id": "performance-budget",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "resource-summary",
+          "weight": 0,
+        },
+        Object {
+          "group": "diagnostics",
+          "id": "third-party-summary",
+          "weight": 0,
+        },
+        Object {
+          "id": "network-requests",
+          "weight": 0,
+        },
+        Object {
+          "id": "network-rtt",
+          "weight": 0,
+        },
+        Object {
+          "id": "network-server-latency",
+          "weight": 0,
+        },
+        Object {
+          "id": "main-thread-tasks",
+          "weight": 0,
+        },
+        Object {
+          "id": "diagnostics",
+          "weight": 0,
+        },
+        Object {
+          "id": "metrics",
+          "weight": 0,
+        },
+        Object {
+          "id": "screenshot-thumbnails",
+          "weight": 0,
+        },
+        Object {
+          "id": "final-screenshot",
+          "weight": 0,
+        },
+      ],
+      "title": "lighthouse-core/config/default-config.js | performanceCategoryTitle # 0",
+    },
+    "pwa": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "pwa-fast-reliable",
+          "id": "load-fast-enough-for-pwa",
+          "weight": 7,
+        },
+        Object {
+          "group": "pwa-fast-reliable",
+          "id": "works-offline",
+          "weight": 5,
+        },
+        Object {
+          "group": "pwa-fast-reliable",
+          "id": "offline-start-url",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-installable",
+          "id": "is-on-https",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-installable",
+          "id": "service-worker",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-installable",
+          "id": "installable-manifest",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "redirects-http",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "splash-screen",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "themed-omnibox",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "content-width",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "viewport",
+          "weight": 2,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "without-javascript",
+          "weight": 1,
+        },
+        Object {
+          "group": "pwa-optimized",
+          "id": "apple-touch-icon",
+          "weight": 1,
+        },
+        Object {
+          "id": "pwa-cross-browser",
+          "weight": 0,
+        },
+        Object {
+          "id": "pwa-page-transitions",
+          "weight": 0,
+        },
+        Object {
+          "id": "pwa-each-page-has-url",
+          "weight": 0,
+        },
+      ],
+      "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+      "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+      "title": "Progressive Web App",
+    },
+    "seo": Object {
+      "auditRefs": Array [
+        Object {
+          "group": "seo-mobile",
+          "id": "viewport",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "document-title",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "meta-description",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-crawl",
+          "id": "http-status-code",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "link-text",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-crawl",
+          "id": "is-crawlable",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-crawl",
+          "id": "robots-txt",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "image-alt",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "hreflang",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "canonical",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-mobile",
+          "id": "font-size",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-content",
+          "id": "plugins",
+          "weight": 1,
+        },
+        Object {
+          "group": "seo-mobile",
+          "id": "tap-targets",
+          "weight": 1,
+        },
+        Object {
+          "id": "structured-data",
+          "weight": 0,
+        },
+      ],
+      "description": "lighthouse-core/config/default-config.js | seoCategoryDescription # 0",
+      "manualDescription": "lighthouse-core/config/default-config.js | seoCategoryManualDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoCategoryTitle # 0",
+    },
+  },
+  "groups": Object {
+    "a11y-aria": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yAriaGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yAriaGroupTitle # 0",
+    },
+    "a11y-audio-video": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yAudioVideoGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yAudioVideoGroupTitle # 0",
+    },
+    "a11y-best-practices": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yBestPracticesGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yBestPracticesGroupTitle # 0",
+    },
+    "a11y-color-contrast": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yColorContrastGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yColorContrastGroupTitle # 0",
+    },
+    "a11y-language": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yLanguageGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yLanguageGroupTitle # 0",
+    },
+    "a11y-names-labels": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupTitle # 0",
+    },
+    "a11y-navigation": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yNavigationGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yNavigationGroupTitle # 0",
+    },
+    "a11y-tables-lists": Object {
+      "description": "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupTitle # 0",
+    },
+    "budgets": Object {
+      "description": "lighthouse-core/config/default-config.js | budgetsGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | budgetsGroupTitle # 0",
+    },
+    "diagnostics": Object {
+      "description": "lighthouse-core/config/default-config.js | diagnosticsGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | diagnosticsGroupTitle # 0",
+    },
+    "load-opportunities": Object {
+      "description": "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle # 0",
+    },
+    "metrics": Object {
+      "title": "lighthouse-core/config/default-config.js | metricGroupTitle # 0",
+    },
+    "pwa-fast-reliable": Object {
+      "title": "lighthouse-core/config/default-config.js | pwaFastReliableGroupTitle # 0",
+    },
+    "pwa-installable": Object {
+      "title": "lighthouse-core/config/default-config.js | pwaInstallableGroupTitle # 0",
+    },
+    "pwa-optimized": Object {
+      "title": "lighthouse-core/config/default-config.js | pwaOptimizedGroupTitle # 0",
+    },
+    "seo-content": Object {
+      "description": "lighthouse-core/config/default-config.js | seoContentGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoContentGroupTitle # 0",
+    },
+    "seo-crawl": Object {
+      "description": "lighthouse-core/config/default-config.js | seoCrawlingGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoCrawlingGroupTitle # 0",
+    },
+    "seo-mobile": Object {
+      "description": "lighthouse-core/config/default-config.js | seoMobileGroupDescription # 0",
+      "title": "lighthouse-core/config/default-config.js | seoMobileGroupTitle # 0",
+    },
+  },
+  "passes": Array [
+    Object {
+      "blankPage": "about:blank",
+      "blockedUrlPatterns": Array [],
+      "cpuQuietThresholdMs": 1000,
+      "gatherers": Array [
+        Object {
+          "implementation": [Function],
+          "instance": CSSUsage {},
+          "options": Object {},
+          "path": "css-usage",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ViewportDimensions {},
+          "options": Object {},
+          "path": "viewport-dimensions",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": RuntimeExceptions {
+            "_exceptions": Array [],
+            "_onRuntimeExceptionThrown": [Function],
+          },
+          "options": Object {},
+          "path": "runtime-exceptions",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ConsoleMessages {
+            "_logEntries": Array [],
+            "_onConsoleEntryAdded": [Function],
+          },
+          "options": Object {},
+          "path": "console-messages",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": AnchorElements {},
+          "options": Object {},
+          "path": "anchor-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ImageElements {},
+          "options": Object {},
+          "path": "image-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": LinkElements {},
+          "options": Object {},
+          "path": "link-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": MetaElements {},
+          "options": Object {},
+          "path": "meta-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ScriptElements {},
+          "options": Object {},
+          "path": "script-elements",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": AppCacheManifest {},
+          "options": Object {},
+          "path": "dobetterweb/appcache",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": Doctype {},
+          "options": Object {},
+          "path": "dobetterweb/doctype",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": DOMStats {},
+          "options": Object {},
+          "path": "dobetterweb/domstats",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": OptimizedImages {
+            "_encodingStartAt": 0,
+          },
+          "options": Object {},
+          "path": "dobetterweb/optimized-images",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": PasswordInputsWithPreventedPaste {},
+          "options": Object {},
+          "path": "dobetterweb/password-inputs-with-prevented-paste",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ResponseCompression {},
+          "options": Object {},
+          "path": "dobetterweb/response-compression",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": TagsBlockingFirstPaint {},
+          "options": Object {},
+          "path": "dobetterweb/tags-blocking-first-paint",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": FontSize {},
+          "options": Object {},
+          "path": "seo/font-size",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": EmbeddedContent {},
+          "options": Object {},
+          "path": "seo/embedded-content",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": RobotsTxt {},
+          "options": Object {},
+          "path": "seo/robots-txt",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": TapTargets {},
+          "options": Object {},
+          "path": "seo/tap-targets",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": Accessibility {},
+          "options": Object {},
+          "path": "accessibility",
+        },
+      ],
+      "networkQuietThresholdMs": 1000,
+      "passName": "defaultPass",
+      "pauseAfterLoadMs": 1000,
+      "recordTrace": true,
+      "useThrottling": true,
+    },
+    Object {
+      "blankPage": "about:blank",
+      "blockedUrlPatterns": Array [],
+      "cpuQuietThresholdMs": 0,
+      "gatherers": Array [
+        Object {
+          "implementation": [Function],
+          "instance": ServiceWorker {},
+          "options": Object {},
+          "path": "service-worker",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": Offline {},
+          "options": Object {},
+          "path": "offline",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": StartUrl {},
+          "options": Object {},
+          "path": "start-url",
+        },
+      ],
+      "networkQuietThresholdMs": 0,
+      "passName": "offlinePass",
+      "pauseAfterLoadMs": 0,
+      "recordTrace": false,
+      "useThrottling": false,
+    },
+    Object {
+      "blankPage": "about:blank",
+      "blockedUrlPatterns": Array [
+        "*.css",
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.gif",
+        "*.svg",
+        "*.ttf",
+        "*.woff",
+        "*.woff2",
+      ],
+      "cpuQuietThresholdMs": 0,
+      "gatherers": Array [
+        Object {
+          "implementation": [Function],
+          "instance": HTTPRedirect {
+            "_preRedirectURL": "",
+          },
+          "options": Object {},
+          "path": "http-redirect",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": HTMLWithoutJavaScript {},
+          "options": Object {},
+          "path": "html-without-javascript",
+        },
+      ],
+      "networkQuietThresholdMs": 0,
+      "passName": "redirectPass",
+      "pauseAfterLoadMs": 0,
+      "recordTrace": false,
+      "useThrottling": false,
+    },
+  ],
+  "settings": Object {
+    "additionalTraceCategories": null,
+    "auditMode": false,
+    "blockedUrlPatterns": null,
+    "budgets": null,
+    "channel": "node",
+    "disableStorageReset": false,
+    "emulatedFormFactor": "mobile",
+    "extraHeaders": null,
+    "gatherMode": false,
+    "locale": "en-US",
+    "maxWaitForFcp": 15000,
+    "maxWaitForLoad": 45000,
+    "onlyAudits": null,
+    "onlyCategories": null,
+    "output": "json",
+    "precomputedLanternData": null,
+    "skipAudits": null,
+    "throttling": Object {
+      "cpuSlowdownMultiplier": 4,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "requestLatencyMs": 562.5,
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "uploadThroughputKbps": 675,
+    },
+    "throttlingMethod": "simulate",
+  },
+}
+`;

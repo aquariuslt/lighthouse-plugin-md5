@@ -1,0 +1,21 @@
+# Node
+node_modules
+
+# Logs
+*.log
+
+
+# Global Jetbrains Template
+.idea
+*.iml
+
+# Reports
+reports
+coverage-result.txt
+
+# Dist
+lib
+dist
+
+# Yarn
+yarn.lock

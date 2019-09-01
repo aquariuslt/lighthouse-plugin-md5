@@ -1,0 +1,88 @@
+{
+  "name": "lighthouse-plugin-md5",
+  "version": "0.0.1",
+  "description": "lighthouse plugin to generate md5 from network requests",
+  "main": "lib/index.js",
+  "repository": "https://github.com/aquariuslt/lighthouse-plugins-md5",
+  "author": "Aquariuslt <superaquariuslt@gmail.com>>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "pretest": "tsc",
+    "test": "jest",
+    "pretest:cov": "tsc",
+    "test:cov": "jest --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.3",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.9.0",
+    "lerna": "^3.16.4",
+    "lighthouse": "^5.2.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "3.5.3"
+  },
+  "peerDependencies": {
+    "lighthouse": "^5.2.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.ts"
+    ],
+    "coverageDirectory": "<rootDir>/reports/coverage",
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/**/*.test.ts"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "prettier/@typescript-eslint"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "rules": {
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/explicit-member-accessibility": "off",
+      "@typescript-eslint/no-parameter-properties": "off",
+      "@typescript-eslint/interface-name-prefix": "off"
+    }
+  },
+  "eslintIgnore": [
+    "lib"
+  ],
+  "prettier": {
+    "semi": true,
+    "arrowParens": "always",
+    "proseWrap": "never",
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}

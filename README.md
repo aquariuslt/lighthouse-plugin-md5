@@ -1,0 +1,2 @@
+# Lighthouse Plugin: MD5
+
