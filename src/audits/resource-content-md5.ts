@@ -1,7 +1,5 @@
 import * as lighthouse from 'lighthouse';
 
-import * as NetworkRecords from 'lighthouse/lighthouse-core/computed/network-records';
-
 const Audit = lighthouse.Audit;
 
 export = class ResourceContentMd5Audit extends Audit {
@@ -16,11 +14,20 @@ export = class ResourceContentMd5Audit extends Audit {
   }
 
   static async audit(artifacts, context) {
-    const devtoolsLog = artifacts.devtoolsLogs[Audit.DEFAULT_PASS];
     const resourceContents = artifacts.ResourceContentMd5;
 
-    const networkRecords = await NetworkRecords.request(devtoolsLog, context);
+    const results = resourceContents.map((resource) => ({
+      url: resource.url,
+      md5: resource.md5
+    }));
 
-    return {};
+    const headings = [{ key: 'url', itemType: 'url', text: 'URL' }, { key: 'md5', itemType: 'string', text: 'MD5' }];
+    const tableDetails = Audit.makeTableDetails(headings, results);
+
+    return {
+      score: 1,
+      numericValue: resourceContents.length,
+      details: tableDetails
+    };
   }
 };
