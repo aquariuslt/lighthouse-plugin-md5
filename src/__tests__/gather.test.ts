@@ -22,7 +22,7 @@ describe('Gather:MD5', () => {
       await CHROME_INSTANCE.kill();
     };
 
-    const STABLE_URL = 'https://www.baidu.com/';
+    const STABLE_URL = 'http://example.com/';
     const configJson = {
       passes: [
         {
