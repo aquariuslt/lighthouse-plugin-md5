@@ -1,6 +1,6 @@
 {
   "name": "lighthouse-plugin-md5",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "lighthouse plugin to generate md5 from network requests",
   "main": "lib/index.js",
   "repository": "https://github.com/aquariuslt/lighthouse-plugins-md5",
