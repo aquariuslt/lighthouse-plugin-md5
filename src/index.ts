@@ -1,8 +1,8 @@
 const plugin = {
-  audits: [{ path: 'lib/audit.js' }],
+  audits: [{ path: 'lib/audits/resource-content-md5.js' }],
   category: {
-    title: 'MD5 Validation',
-    auditRefs: [{ id: 'content-md5', weight: 0 }]
+    title: 'Resource Content MD5',
+    auditRefs: [{ id: 'resource-content-md5', weight: 0 }]
   }
 };
 

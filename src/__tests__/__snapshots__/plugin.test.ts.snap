@@ -646,7 +646,7 @@ Config {
     Object {
       "implementation": [Function],
       "options": Object {},
-      "path": "lib/audit.js",
+      "path": "lib/audits/resource-content-md5.js",
     },
   ],
   "categories": Object {
@@ -945,13 +945,13 @@ Config {
       "auditRefs": Array [
         Object {
           "group": undefined,
-          "id": "content-md5",
+          "id": "resource-content-md5",
           "weight": 0,
         },
       ],
       "description": undefined,
       "manualDescription": undefined,
-      "title": "MD5 Validation",
+      "title": "Resource Content MD5",
     },
     "performance": Object {
       "auditRefs": Array [
@@ -1523,6 +1523,12 @@ Config {
           "instance": Accessibility {},
           "options": Object {},
           "path": "accessibility",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ResourceContentMd5 {},
+          "options": Object {},
+          "path": "lib/gatherers/resource-content-md5.js",
         },
       ],
       "networkQuietThresholdMs": 1000,
@@ -2275,7 +2281,7 @@ Config {
     Object {
       "implementation": [Function],
       "options": Object {},
-      "path": "lib/audit.js",
+      "path": "lib/audits/resource-content-md5.js",
     },
   ],
   "categories": Object {
@@ -2574,13 +2580,13 @@ Config {
       "auditRefs": Array [
         Object {
           "group": undefined,
-          "id": "content-md5",
+          "id": "resource-content-md5",
           "weight": 0,
         },
       ],
       "description": undefined,
       "manualDescription": undefined,
-      "title": "MD5 Validation",
+      "title": "Resource Content MD5",
     },
     "performance": Object {
       "auditRefs": Array [
@@ -3152,6 +3158,12 @@ Config {
           "instance": Accessibility {},
           "options": Object {},
           "path": "accessibility",
+        },
+        Object {
+          "implementation": [Function],
+          "instance": ResourceContentMd5 {},
+          "options": Object {},
+          "path": "lib/gatherers/resource-content-md5.js",
         },
       ],
       "networkQuietThresholdMs": 1000,

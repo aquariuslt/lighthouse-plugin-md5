@@ -9,7 +9,13 @@ describe('Plugin: Discovery', () => {
 
     const allConfigJson = {
       ...baseConfigJson,
-      plugins: ['lighthouse-plugin-md5']
+      plugins: ['lighthouse-plugin-md5'],
+      passes: [
+        {
+          passName: 'defaultPass',
+          gatherers: ['lib/gatherers/resource-content-md5.js']
+        }
+      ]
     };
 
     const configPathFlags = {
@@ -28,7 +34,13 @@ describe('Plugin: Discovery', () => {
 
     const allConfigJson = {
       ...baseConfigJson,
-      plugins: ['lighthouse-plugin-md5']
+      plugins: ['lighthouse-plugin-md5'],
+      passes: [
+        {
+          passName: 'defaultPass',
+          gatherers: ['lib/gatherers/resource-content-md5.js']
+        }
+      ]
     };
 
     const configPathFlags = {
