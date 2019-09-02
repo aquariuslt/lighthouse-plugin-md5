@@ -15,11 +15,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 10
-      - name: Node CI
+      - name: Yarn install, build, and test
         run: |
           yarn install
-          yarn test
-          yarn build
+          yarn test:cov
 
   publish-npm:
     needs: build
@@ -32,10 +31,9 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      - name: Node CI
+      - name: Yarn install & Build
         run: |
           yarn install
-          yarn test
           yarn build
       - name: Publish to NPM Registry
         run: npm publish

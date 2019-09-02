@@ -46,5 +46,5 @@ describe('Gather:MD5', () => {
 
     await shutdownChrome();
     done();
-  }, 10000);
+  }, 20000);
 });
