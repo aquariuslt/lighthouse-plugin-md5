@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Audit: MD5 # should execute audit function with fake requiredArtifacts[\`ResourceContentMd5\`] 1`] = `
+Object {
+  "details": Object {
+    "headings": Array [
+      Object {
+        "itemType": "url",
+        "key": "url",
+        "text": "URL",
+      },
+      Object {
+        "itemType": "string",
+        "key": "md5",
+        "text": "MD5",
+      },
+    ],
+    "items": Array [
+      Object {
+        "md5": "some-md5-content",
+        "url": "http://example.com/some-pic.png",
+      },
+      Object {
+        "md5": "some-md5-content",
+        "url": "http://example.com/some-font.ttf",
+      },
+    ],
+    "summary": undefined,
+    "type": "table",
+  },
+  "numericValue": 2,
+  "score": 1,
+}
+`;

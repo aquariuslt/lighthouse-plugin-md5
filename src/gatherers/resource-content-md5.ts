@@ -13,6 +13,8 @@ const RESOURCE_TYPES = [
   NetworkRequest.TYPES.Image
 ];
 
+const INLINE_PROTOCOL = 'data:';
+
 const calculateMd5 = (content) => {
   const md5 = crypto.createHash('md5');
   return md5.update(content).digest('hex');
@@ -24,7 +26,8 @@ export = class ResourceContentMd5 extends Gatherer {
 
     const resourceRecords = loadData.networkRecords
       .filter((record) => !record.sessionId)
-      .filter((record) => _.includes(RESOURCE_TYPES, record.resourceType));
+      .filter((record) => _.includes(RESOURCE_TYPES, record.resourceType))
+      .filter((record) => new URL(record.url).protocol !== INLINE_PROTOCOL);
 
     const md5Mappings = [];
 
