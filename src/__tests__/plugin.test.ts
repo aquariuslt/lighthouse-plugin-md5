@@ -24,7 +24,6 @@ describe('Plugin: Discovery', () => {
 
     const lighthouseConfig = new Config(allConfigJson, configPathFlags);
     expect(lighthouseConfig.categories).toHaveProperty('lighthouse-plugin-md5');
-    expect(lighthouseConfig).toMatchSnapshot();
   });
 
   it('# should load plugin with source code', () => {
@@ -49,6 +48,5 @@ describe('Plugin: Discovery', () => {
 
     const lighthouseConfig = new Config(allConfigJson, configPathFlags);
     expect(lighthouseConfig.categories).toHaveProperty('lighthouse-plugin-md5');
-    expect(lighthouseConfig).toMatchSnapshot();
   });
 });
