@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "lighthouse plugin to generate md5 from network requests",
   "main": "lib/index.js",
-  "repository": "https://github.com/aquariuslt/lighthouse-plugins-md5",
+  "repository": "https://github.com/aquariuslt/lighthouse-plugin-md5",
   "author": "Aquariuslt <superaquariuslt@gmail.com>>",
   "license": "MIT",
   "private": false,
