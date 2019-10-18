@@ -8,7 +8,7 @@ export = class ResourceContentMd5Audit extends Audit {
       id: 'resource-content-md5',
       title: 'Resource Content MD5',
       description: 'Resource Content with MD5 Validation',
-      failureTitle: 'Content MD5 can not be detect',
+      failureTitle: 'Content MD5 cannot be detect',
       requiredArtifacts: ['devtoolsLogs', 'ResourceContentMd5']
     };
   }

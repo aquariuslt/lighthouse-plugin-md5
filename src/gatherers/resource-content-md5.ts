@@ -20,6 +20,13 @@ const calculateMd5 = (content) => {
   return md5.update(content).digest('hex');
 };
 
+// Cause get request content with circular request id in a request might timeout, so we add
+// timeout options for getRequestContent(record.requestId, option.timeout)
+
+const DEFAULT_OPTIONS = {
+  TIMEOUT: 6000
+};
+
 export = class ResourceContentMd5 extends Gatherer {
   async afterPass(passContext, loadData) {
     const driver = passContext.driver;
@@ -35,7 +42,7 @@ export = class ResourceContentMd5 extends Gatherer {
       try {
         const url = record.url;
         const requestId = record.requestId;
-        const content = await driver.getRequestContent(record.requestId);
+        const content = await driver.getRequestContent(record.requestId, DEFAULT_OPTIONS.TIMEOUT);
         const contentMd5 = calculateMd5(content);
 
         md5Mappings.push({

@@ -62,7 +62,7 @@ describe('Gatherer:MD5', () => {
 
   it('# should execute gatherer pass function with fakeDriver', async (done) => {
     const fakeDriver = {
-      getRequestContent: (record?) => {
+      getRequestContent: (record?, timeout?: number) => {
         return Promise.resolve(`some content`);
       }
     };

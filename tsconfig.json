@@ -15,8 +15,7 @@
     "allowJs": true,
     "paths": {
       "@/*": ["src/*"]
-    },
-    "typeRoots": ["./node_modules/@types"]
+    }
   },
-  "exclude": ["node_modules", "lib", "reports"]
+  "exclude": ["node_modules", "lib", "reports", "package.json"]
 }

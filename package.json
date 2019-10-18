@@ -7,32 +7,46 @@
   "author": "Aquariuslt <superaquariuslt@gmail.com>>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "lighthouse",
+    "lighthouse-plugin",
+    "md5"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "rimraf lib && tsc",
     "pretest": "tsc",
     "test": "jest",
     "pretest:cov": "tsc",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage",
+    "release": "semantic-release"
   },
   "dependencies": {
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.3",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "@types/jest": "^24.0.19",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
     "chrome-launcher": "^0.11.2",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
     "jest": "^24.9.0",
-    "lerna": "^3.16.4",
-    "lighthouse": "^5.2.0",
+    "lerna": "^3.18.1",
+    "lighthouse": "^5.6.0",
     "prettier": "^1.18.2",
-    "puppeteer": "^1.19.0",
-    "ts-jest": "^24.0.2",
-    "typescript": "3.5.3"
+    "pretty-quick": "^2.0.0",
+    "puppeteer": "^1.20.0",
+    "rimraf": "^3.0.0",
+    "semantic-release": "^15.13.24",
+    "ts-jest": "^24.1.0",
+    "typescript": "3.6.4"
   },
   "peerDependencies": {
     "lighthouse": "^5.2.0"
@@ -88,5 +102,36 @@
     "proseWrap": "never",
     "singleQuote": true,
     "printWidth": 120
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "type-enum": [
+        2,
+        "always",
+        [
+          "chore",
+          "feat",
+          "fix",
+          "docs",
+          "style",
+          "refactor",
+          "test",
+          "ci",
+          "perf",
+          "revert",
+          "pages",
+          "posts"
+        ]
+      ]
+    }
   }
 }
