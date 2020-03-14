@@ -3,7 +3,7 @@ import * as path from 'path';
 import * as Config from 'lighthouse/lighthouse-core/config/config';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const ResourceContentMd5Gatherer = require('@/gatherers/resource-content-md5');
+const ResourceContentMd5Gatherer = require('../gatherers/resource-content-md5');
 
 describe('Gatherer:MD5', () => {
   it('# should load gatherer via spec instance', () => {
@@ -43,7 +43,7 @@ describe('Gatherer:MD5', () => {
       passes: [
         {
           passName: 'defaultPass',
-          gatherers: [{ path: resolve('lib/gatherers/resource-content-md5') }]
+          gatherers: [{ path: resolve('dist/gatherers/resource-content-md5') }]
         }
       ]
     };

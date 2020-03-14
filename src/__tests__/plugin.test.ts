@@ -13,7 +13,7 @@ describe('Plugin: Discovery', () => {
       passes: [
         {
           passName: 'defaultPass',
-          gatherers: ['lib/gatherers/resource-content-md5.js']
+          gatherers: ['dist/gatherers/resource-content-md5.js']
         }
       ]
     };
@@ -37,7 +37,7 @@ describe('Plugin: Discovery', () => {
       passes: [
         {
           passName: 'defaultPass',
-          gatherers: ['lib/gatherers/resource-content-md5.js']
+          gatherers: ['dist/gatherers/resource-content-md5.js']
         }
       ]
     };

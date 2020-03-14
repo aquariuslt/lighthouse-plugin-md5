@@ -3,9 +3,9 @@ import * as path from 'path';
 import * as Config from 'lighthouse/lighthouse-core/config/config';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const ResourceContentMd5Audit = require('@/audits/resource-content-md5');
+const ResourceContentMd5Audit = require('../audits/resource-content-md5');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const ResourceContentMd5Gatherer = require('@/gatherers/resource-content-md5');
+const ResourceContentMd5Gatherer = require('../gatherers/resource-content-md5');
 
 describe('Audit: MD5', () => {
   it('# should load audit via spec instance', () => {
@@ -49,7 +49,7 @@ describe('Audit: MD5', () => {
       ],
       audits: [
         {
-          path: resolve('lib/audits/resource-content-md5')
+          path: resolve('dist/audits/resource-content-md5')
         }
       ]
     };

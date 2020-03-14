@@ -1,21 +1,19 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "declaration": false,
+    "declaration": true,
     "removeComments": true,
+    "noLib": false,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "target": "es6",
-    "sourceMap": true,
-    "outDir": "./lib",
-    "baseUrl": "./",
-    "incremental": true,
+    "experimentalDecorators": true,
     "noImplicitAny": false,
-    "allowJs": true,
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "target": "es6",
+    "sourceMap": false,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "lib", "reports", "package.json"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts", "**/test.*.ts", "__tests__"]
 }
