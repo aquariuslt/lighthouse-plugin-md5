@@ -9,7 +9,7 @@ jobs:
       - name: SCM
         uses: actions/checkout@v1
       - name: Setup Node Environment
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 10
       - name: Install Dependencies and Build
